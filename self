@@ -1,6 +1,6 @@
         local SelfDotCircle = Drawing.new("Circle")
-    SelfDotCircle.Visible = bool
-    SelfDotCircle.Filled = true
+    SelfDotCircle.Visible = false
+    SelfDotCircle.Filled = false
     SelfDotCircle.Thickness = 1
     SelfDotCircle.Transparency = 1
     SelfDotCircle.Radius = 7
