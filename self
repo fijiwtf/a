@@ -1,9 +1,9 @@
         local SelfDotCircle = Drawing.new("Circle")
-    SelfDotCircle.Visible = false
-    SelfDotCircle.Filled = false
-    SelfDotCircle.Thickness = 1
+    SelfDotCircle.Visible = true
+    SelfDotCircle.Filled = true
+    SelfDotCircle.Thickness = 3
     SelfDotCircle.Transparency = 1
-    SelfDotCircle.Radius = 7
+    SelfDotCircle.Radius = 13
 getgenv().Enabled = true
     game.RunService.Heartbeat:Connect(function()
         local Pos, OnScreen = 
